@@ -4,7 +4,7 @@
 
     <groupId>io.github.renestel</groupId>
     <artifactId>renestel-core</artifactId>
-    <version>00.00.006</version>
+    <version>00.00.007-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>renestel-core</name>
     <description>renestel-core</description>
@@ -20,7 +20,7 @@
     <scm>
         <connection>scm:git:https://git@github.com:RenEstel/renestel-core.git</connection>
         <developerConnection>scm:git:https://git@github.com/RenEstel/renestel-core.git</developerConnection>
-        <tag>renestel-core-00.00.006</tag>
+        <tag>renestel-core-00.00.001</tag>
         <url>https://github.com/RenEstel/renestel-core</url>
     </scm>
 
