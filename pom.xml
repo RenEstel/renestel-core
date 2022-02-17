@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.renestel</groupId>
     <artifactId>renestel-core</artifactId>
-    <version>00.00.001-SNAPSHOT</version>
+    <version>00.00.001</version>
     <packaging>pom</packaging>
     <name>renestel-core</name>
     <description>renestel-core</description>
@@ -21,7 +20,7 @@
     <scm>
         <connection>scm:git:ssh://git@github.com:RenEstel/parent.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:RenEstel/parent.git</developerConnection>
-        <tag>00.00.001-SNAPSHOT</tag>
+        <tag>renestel-core-00.00.001</tag>
         <url>https://github.com/RenEstel/parent</url>
     </scm>
 
@@ -34,10 +33,10 @@
             <id>ossrh</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
-        <!--        <repository>-->
-        <!--            <id>ossrh</id>-->
-        <!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
-        <!--        </repository>-->
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
     </distributionManagement>
 
     <properties>
