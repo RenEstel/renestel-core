@@ -2,12 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+
     <groupId>io.github.renestel</groupId>
     <artifactId>renestel-core</artifactId>
     <version>00.00.001-SNAPSHOT</version>
@@ -26,7 +21,7 @@
     <scm>
         <connection>scm:git:ssh://git@github.com:RenEstel/parent.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:RenEstel/parent.git</developerConnection>
-        <tag>01.000.00-SNAPSHOT</tag>
+        <tag>00.00.001-SNAPSHOT</tag>
         <url>https://github.com/RenEstel/parent</url>
     </scm>
 
@@ -52,24 +47,6 @@
         <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
     <build>
         <resources>
             <resource>
@@ -80,22 +57,17 @@
                 </includes>
             </resource>
         </resources>
+        <pluginManagement>
 
+        </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+
     <profiles>
         <!-- GPG Signature on release -->
         <profile>
