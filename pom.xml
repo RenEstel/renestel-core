@@ -17,6 +17,13 @@
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <id>RenEstel</id>
+            <name>Renat Khabirov</name>
+            <email>renkhabir@gmail.com</email>
+        </developer>
+    </developers>
     <scm>
         <connection>scm:git:https://git@github.com:RenEstel/renestel-core.git</connection>
         <developerConnection>scm:git:https://git@github.com/RenEstel/renestel-core.git</developerConnection>
