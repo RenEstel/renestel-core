@@ -4,11 +4,11 @@
 
     <groupId>io.github.renestel</groupId>
     <artifactId>renestel-core</artifactId>
-    <version>00.00.001</version>
+    <version>00.00.001-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>renestel-core</name>
     <description>renestel-core</description>
-    <url>https://github.com/RenEstel/parent</url>
+    <url>https://github.com/RenEstel/renestel-core</url>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -18,15 +18,15 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:ssh://git@github.com:RenEstel/parent.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:RenEstel/parent.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:RenEstel/renestel-core.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:RenEstel/renestel-core.git</developerConnection>
         <tag>renestel-core-00.00.001</tag>
-        <url>https://github.com/RenEstel/parent</url>
+        <url>https://github.com/RenEstel/renestel-core</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/RenEstel/parent/issues</url>
+        <url>https://github.com/RenEstel/renestel-core/issues</url>
     </issueManagement>
     <distributionManagement>
         <snapshotRepository>
