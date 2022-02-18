@@ -1,0 +1,17 @@
+logbook:
+  strategy: default
+  exclude:
+    - /actuator/**
+    - /swagger-ui/**
+    - /v3/api-docs/**
+  format:
+    style: json
+  body:
+    max-size: 3000
+    filters:
+      string: phone,email,name,passport
+      number: latitude,longitude,lat,lon
+  headers:
+    enabled: false
+  logger:
+    active: true
