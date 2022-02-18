@@ -166,7 +166,7 @@
             <dependency>
                 <groupId>io.github.renestel</groupId>
                 <artifactId>core-web</artifactId>
-                <version>${child.version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
