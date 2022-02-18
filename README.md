@@ -1,10 +1,30 @@
-[publish](https://s01.oss.sonatype.org/#stagingRepositories)
-[ticket](https://issues.sonatype.org/browse/OSSRH-78304)
+Корневой проект для хранения родительского pom и общих утилит
 
-# Plugins
+## Что внутри?
 
-| plugin                 | description                                                            |
-|------------------------|------------------------------------------------------------------------|
-| maven-resources-plugin | Copy the resources to the output directory for including in the JAR.   |
-| maven-deploy-plugin    | Deploy the built artifact to the remote repository.                    |
-| maven-release-plugin   | Release the current project - updating the POM and tagging in the SCM. |
+| модуль | описание |
+|--------|----------|
+|        |          |
+
+## Как подключить?
+
+#### Maven:
+
+Унаследовать от корневого pom:
+
+```.xml
+<parent>
+    <groupId>io.github.renestel</groupId>
+    <artifactId>renestel-core</artifactId>
+    <version>LATEST_RELEASE</version>
+</parent>
+```
+
+Подключить желаемый модуль, если он необходим:
+
+```xml
+<dependency>
+    <groupId>io.github.renestel</groupId>
+    <artifactId>MODULE_NAME</artifactId>
+</dependency>
+```
